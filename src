@@ -1,0 +1,5 @@
+// Easily update links here without touching other files
+export const AFFILIATE_LINKS = {
+  exness: "https://one.exnesstrack.org/a/c_3vpu5eo65l", // Your Exness link
+  ctaText: "🚀 Start Trading Now (Free Bonus)"
+};
