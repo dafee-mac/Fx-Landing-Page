@@ -1,0 +1,44 @@
+/* Mobile-friendly styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.benefits ul, .broker-cta ul {
+  padding-left: 20px;
+}
+
+.broker-cta {
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #3b82f6;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #2563eb;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  color: #64748b;
+}
