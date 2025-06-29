@@ -1,0 +1,44 @@
+import React from 'react';
+import { AFFILIATE_LINKS } from './config';
+import './App.css';
+
+export default function ForexLanding() {
+  return (
+    <div className="container">
+      <header>
+        <h1>Forex Quickstart Guide for Beginners</h1>
+        <p>Learn how to trade currencies and earn from anywhere</p>
+      </header>
+
+      <main>
+        <section className="benefits">
+          <h2>Why Trade Forex?</h2>
+          <ul>
+            <li>✓ Trade 24/5 with just $10</li>
+            <li>✓ No experience needed</li>
+            <li>✓ High profit potential</li>
+          </ul>
+        </section>
+
+        <section className="broker-cta">
+          <h2>Recommended Broker: <span>Exness</span></h2>
+          <ul>
+            <li>✓ Regulated & trusted worldwide</li>
+            <li>✓ Fast withdrawals</li>
+            <li>✓ Free trading signals</li>
+          </ul>
+
+          <a
+            href={AFFILIATE_LINKS.exness}
+            className="cta-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {AFFILIATE_LINKS.ctaText}
+          </a>
+          <p className="small-text">Limited-time bonus for new traders</p>
+        </section>
+      </main>
+    </div>
+  );
+}
